@@ -1,0 +1,28 @@
+{
+  "tailwindCSS.includeLanguages": {
+    "typescript": "javascript",
+    "typescriptreact": "javascript",
+    "javascript": "javascript",
+    "javascriptreact": "javascript",
+    "html": "html",
+    "css": "css",
+    "scss": "scss",
+    "vue": "vue",
+    "jsx": "javascript",
+    "tsx": "javascript"
+  },
+  "tailwindCSS.emmetCompletions": true,
+  "tailwindCSS.experimental.classRegex": [
+    "tw`([^`]*)", // tw`...`
+    "tw=\"([^\"]*)", // <div tw="..." />
+    "tw={\"([^\"}]*)", // <div tw={"..."} />
+    "tw\\.\\w+`([^`]*)", // tw.xxx`...`
+    "tw\\(.*?\\)`([^`]*)", // tw(Component)`...`
+    "className=\"([^\"]*)", // className="..."
+    "className={\"([^\"}]*)", // className={"..."}
+    "className={classnames\\(([^)]*)\\)", // className={classnames(...)}
+    "classnames\\(([^)]*)\\)", // classnames(...)
+    "className={clsx\\(([^)]*)\\)", // className={clsx(...)}
+    "clsx\\(([^)]*)\\)" // clsx(...)
+  ]
+}
